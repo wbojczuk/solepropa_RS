@@ -1,0 +1,158 @@
+
+.aboutUs{
+    display: inline-flex;
+    width: 70%;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--section-padding);
+    
+    margin: 0 15%;
+    position: relative;
+    overflow: hidden;
+}
+.textWrapper{
+    width: 50%;
+    display: inline-block;
+}
+.imgWrapper{
+    width: 50%;
+    display: inline-block;
+}
+
+.textWrapper h1{
+    font-family: var(--secondary-font);
+    font-size: 4rem;
+    line-height: 130%;
+}
+.aboutUs h4{
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+    font-size: 1.1rem;
+    line-height: 100%;
+    margin-left: 0.5vw;
+}
+
+.textWrapper p{
+    padding-right: 10%;
+    margin: 2.5vw 0;
+    font-size: 1.3rem;
+    line-height: 200%;
+}
+
+.imgContainer{
+    position: relative;
+    --size: 18vw;
+    width: var(--size);
+    margin-left: 20%;
+    height: calc(var(--size) * 1.5);
+}
+
+.imgContainer::after{
+     content: '';
+     display: inline-block;
+     position: absolute;
+     top: 5%;
+     left: 5%;
+     width: 90%;
+     height: 90%;
+     outline: 1px solid white;
+     z-index: 16;
+}
+
+.mainImg{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    z-index: 15;
+}
+.imgStyle{
+    position: absolute;
+    top:-2vw;
+    right:-2vw;
+    width: 100%;
+    height: 100%;
+    background-color: var(--primary-color);
+    z-index: 10;
+}
+
+.bgImg{
+    position: absolute;
+    top: 0;
+    left:0;
+    height: 100%;
+    width: auto;
+    z-index: -1;
+}
+
+/* TABLET STYLES */
+@media only screen and (min-width: 650px) and (max-width: 990px){
+    .aboutUs{
+        width: 90%;
+        margin: 0 5%;
+    }
+    .textWrapper h1{
+        font-size: 3rem;
+    }
+    
+    .textWrapper p{
+        padding-right: 0%;
+        margin: 2.5vw 0;
+        font-size: 1.2rem;
+        line-height: 180%;
+    }
+    .aboutUs h4{
+        font-size: 1.2rem;
+    }
+    .imgContainer{
+        --size:30vw;
+    }
+    
+}
+ 
+/* MOBILE STYLES */
+@media only screen and (max-width: 649px){
+    .aboutUs{
+        width: 95%;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        margin: 0 2.5%;
+    }
+    .aboutUs h4{
+        padding-top: 4vw;
+        font-size: 1.3rem;
+    }
+    
+    .textWrapper{
+        width: 80%;
+    }
+    .imgWrapper{
+        width: 80%;
+    }
+    
+    .textWrapper h1{
+        padding-top: 2vw;
+        font-size: 4rem;
+    }
+    
+    .textWrapper p{
+        padding-right: 5%;
+        margin: 6vw 0;
+        font-size: 1.3rem;
+    }
+    
+    .imgContainer{
+        --size: 55vw;
+        margin-left: 0;
+        margin-right: 20%;
+    }
+    
+    .imgStyle{
+        top:-4vw;
+        right:-4vw;
+    }
+}
