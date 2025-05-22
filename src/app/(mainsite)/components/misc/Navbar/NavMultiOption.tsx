@@ -1,7 +1,7 @@
 import styles from "./navbar.module.css"
 import Link from "next/link"
 import { useEffect, useRef, useState, useImperativeHandle, forwardRef, ReactNode } from "react"
-import { InlineIcon } from "@iconify/react"
+
 
 interface optionProps {
     ref: any,
@@ -52,7 +52,7 @@ interface optionProps {
               <li ref={listRef} className={`nav-noclose ${styles.dropdownList}`} onClick={toggleActive}>
               {(props.icon !== undefined) ? props.icon : <span className={styles.noIcon}></span>}
                 <span style={{pointerEvents: "none"}}>{props.title}</span>
-                <InlineIcon style={{pointerEvents: "none"}} icon={"mdi:menu-down"} width="50px" height="50px" />
+               
               </li>
 
               <ul>

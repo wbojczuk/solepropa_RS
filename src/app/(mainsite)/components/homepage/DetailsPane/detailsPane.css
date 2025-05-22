@@ -84,12 +84,14 @@
 @media only screen and (min-width: 650px) and (max-width: 990px){
     #detailsPane{
         width: 40%;
-        padding: 5% 10% 10% 5%;
-        margin-top: 14vw;
+        height: 80%;
+        padding: 8% 10% 10% 5%;
+        margin-top: 10%;
     }
 
     #detailsPaneClose{   
         width: 13%;
+        top: 7%;
     }
     #detailsPane img{
         margin-top: 6vw;
@@ -116,20 +118,21 @@
     #detailsPane{
         width: 70%;
         padding: 5% 10% 20% 5%;
-        margin-top: 25vw;
+        height: 90%;
+        padding-top: 25vw;
     }
     
     #detailsPaneClose{   
         width: 15%;
-        top: 1%;
+        top: 15%;
         right: 5%;
     }
     #detailsPane img{
         margin-top: 7vh;
     }
     #detailsPaneName{
-        font-size: 3vh;
-        margin-top: 3vh;
+        font-size: 3rem !important;
+        margin-top: 15vw;
         padding-right: 15%;
     }
     #detailsPaneDescription{
