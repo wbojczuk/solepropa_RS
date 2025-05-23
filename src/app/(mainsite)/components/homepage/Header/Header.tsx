@@ -27,6 +27,6 @@ return (
     </div>
 
     <div className="shader"></div>
-    <img src="/img/header-bg.png" alt="image of pool" className="bg-img" />
+    <img src="/img/header-bg.webp" alt="image of pool" className="bg-img" />
  </div>
 )};

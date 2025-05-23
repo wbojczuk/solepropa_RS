@@ -88,7 +88,7 @@ export default function DetailsPane(props: detailsPaneProps) {
         <h2 id="detailsPaneName">{props.name}</h2>
         <p id="detailsPaneDescription">{props.desc}</p>
         <Link onClick={closeDetailsPane} id="addServiceToForm" className='main-link' href='/contact'>Get a Quote</Link>
-       <img style={{opacity: 0.1}} src='/img/pastwork.png' alt='Image of appliances' className='bg-img' />
+       <img style={{opacity: 0.1}} src='/img/pastwork.webp' alt='Image of appliances' className='bg-img' />
       </div>
        
     </div>

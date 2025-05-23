@@ -25,7 +25,7 @@ export default function AboutUs() {
 
         <div className={styles.imgWrapper}>
           <div className={styles.imgContainer}>
-            <img src="/img/aboutus-bg.png" alt="image of worker" className={styles.mainImg} />
+            <img src="/img/aboutus-bg.webp" alt="image of worker" className={styles.mainImg} />
             <Shader background="var(--primary-color)" opacity={.20} zIndex={15} />
             <div className={styles.imgStyle}></div>
           </div>

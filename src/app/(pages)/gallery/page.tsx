@@ -1,3 +1,5 @@
+import GalleryContent from "@/app/(mainsite)/components/gallerypage/GalleryContent/GalleryContent"
+import PageTitle from "@/app/(mainsite)/components/misc/PageTitle/PageTitle"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
@@ -26,7 +28,8 @@ description: `${process.env.NEXT_PUBLIC_WEBSITE_DESC}`,
 export default function GalleryPage(){
 	 return(
 	 	 <>
-
+			<PageTitle pageTitle="Gallery" />
+			<GalleryContent />
 	 	 </>
 	 )
 }

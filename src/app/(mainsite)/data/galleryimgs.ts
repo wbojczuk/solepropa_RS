@@ -1,14 +1,14 @@
 const galleryImgs: string[] = [
-    "/img/gallery/1.png",
-    "/img/gallery/2.png",
-    "/img/gallery/3.png",
-    "/img/gallery/4.png",
-    "/img/gallery/5.png",
-    "/img/gallery/6.png",
-    "/img/gallery/7.png",
-    "/img/gallery/8.png",
-    "/img/gallery/9.png",
-    "/img/gallery/10.png",
+    "/img/gallery/1.webp",
+    "/img/gallery/2.webp",
+    "/img/gallery/3.webp",
+    "/img/gallery/4.webp",
+    "/img/gallery/5.webp",
+    "/img/gallery/6.webp",
+    "/img/gallery/7.webp",
+    "/img/gallery/8.webp",
+    "/img/gallery/9.webp",
+    "/img/gallery/10.webp",
 ]
 
 export default galleryImgs

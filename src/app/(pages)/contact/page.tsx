@@ -1,3 +1,7 @@
+import ContactInfo from "@/app/(mainsite)/components/contactpage/ContactInfo/ContactInfo"
+import FormAndMap from "@/app/(mainsite)/components/contactpage/FormAndMap/FormAndMap"
+import PageTitle from "@/app/(mainsite)/components/misc/PageTitle/PageTitle"
+import Shader from "@/app/(mainsite)/components/misc/Shader/Shader"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
@@ -26,7 +30,14 @@ description: `${process.env.NEXT_PUBLIC_WEBSITE_DESC}`,
 export default function ContactPage(){
 	 return(
 	 	 <>
-
+			<PageTitle pageTitle="Contact" />
+			<div style={{position: "relative"}}>
+				<ContactInfo />
+				<FormAndMap />
+				
+				<Shader background="#701412" opacity={.67} />
+				<img src='/img/pastwork.webp' alt='Image of appliances' className='bg-img' />
+			</div>
 	 	 </>
 	 )
 }

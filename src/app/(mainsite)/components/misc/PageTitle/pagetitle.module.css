@@ -5,8 +5,8 @@
     align-items: center;
     justify-content: center;
     font-weight: bold;
-    font-family: var(--secondary-font);
     color: var(--secondary-text-color);
+    font-family: var(--secondary-font);
 }
 
 .pageTitle h1{

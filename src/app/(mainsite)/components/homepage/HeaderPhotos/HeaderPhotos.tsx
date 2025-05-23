@@ -6,13 +6,13 @@ return (
  <div className={styles.provenWrapper}>
     <div className={styles.proven}>
         <div className={styles.provenItem}>
-            <img src="/img/gallery/1.png" alt="past work photo" />
+            <img src="/img/gallery/1.webp" alt="past work photo" />
         </div>
         <div className={styles.provenItem}>
-            <img src="/img/gallery/2.png" alt="past work photo" />
+            <img src="/img/gallery/2.webp" alt="past work photo" />
         </div>
         <div className={styles.provenItem}>
-            <img src="/img/gallery/3.png" alt="past work photo" />
+            <img src="/img/gallery/3.webp" alt="past work photo" />
         </div>
          <Link href={"#pastWork"} className={styles.provenItem}>
             <span>View<br />More</span>
